@@ -5,6 +5,7 @@ In Revature's Social Network everyone is friends with everyone else. Users can r
 
 # Technologies Used
 - Java 8
+- Hibernate 5.4.21.Final
 - PostgreSQL 42.2.18
 - HTML5
 - CSS
@@ -15,19 +16,24 @@ In Revature's Social Network everyone is friends with everyone else. Users can r
 - H2 1.4.200
 - Ajax, Servlets
 - Apache Tomcat Server v9.0
+- Spring 5.2.12 RELEASE
+  - Spring Core
+  - Spring Beans
+  - Spring Context
+  - Spring ORM 
+  - Spring WebMVC
+  - Spring Test
 
 # Features
-- Employee
-  - Login
-  - Add Reimbursement Request
-- Finance Manager
-  - All of the Above
-  - View Pending Requests
-  - Approve or Deny Reimbursements
-  - View Updated Status
+- Register an account
+- Login to the application
+- Share multimedia
+- Modify a personal account (i.e. profile pictures)
+- Search for users to look at a friend's profile
+- View a feed to see all users' posts
 
 # Getting Started
-- git clone <https://github.com/michaelajimenez/Project2.git>
+- git clone <https://github.com/michaelajimenez/Proj2.git>
 - The above git command will bring the repository into your specified directory
 
 # Usage
