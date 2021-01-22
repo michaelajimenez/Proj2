@@ -44,7 +44,6 @@ In Revature's Social Network everyone is friends with everyone else. Users can r
 - Set the importer project to allow Tomcat through "Project Properties > Targeted Runtimes > Apache Timcat v9.0"
 - Add the imported project to the Tomcat Server "Right Click 'Tomcat v9.0 Server at localhost' > Add and Remove"
 - Start the Tomcat Server
-- Navigate to "src/main/webapp/resources/index.html" and run the file
 
 # License
 https://github.com/michaelajimenez/Proj1/blob/master/LICENSE
