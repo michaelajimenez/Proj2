@@ -1,0 +1,142 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`component rerenders when props change 1`] = `
+<div
+  className="overlay-container"
+>
+  <div
+    className="overlay"
+  >
+    <div
+      className="overlay-panel overlay-left"
+    >
+      <h1>
+        Have an Account?
+      </h1>
+      <p
+        className="overlay-description"
+      >
+        How about signing back in to your current?
+      </p>
+      <button
+        className="overlayBtn"
+        onClick={[Function]}
+      >
+        Sign In
+      </button>
+    </div>
+    <div
+      className="overlay-panel overlay-right"
+    >
+      <h1>
+        Need an Account?
+      </h1>
+      <p
+        className="overlay-description"
+      >
+        Click below to sign up today!
+      </p>
+      <button
+        className="overlayBtn"
+        onClick={[Function]}
+      >
+        Sign Up
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`component rerenders when props change 2`] = `
+<div
+  className="overlay-container"
+>
+  <div
+    className="overlay"
+  >
+    <div
+      className="overlay-panel overlay-left"
+    >
+      <h1>
+        Have an Account?
+      </h1>
+      <p
+        className="overlay-description"
+      >
+        How about signing back in to your current?
+      </p>
+      <button
+        className="overlayBtn"
+        onClick={[Function]}
+      >
+        Sign In
+      </button>
+    </div>
+    <div
+      className="overlay-panel overlay-right"
+    >
+      <h1>
+        Need an Account?
+      </h1>
+      <p
+        className="overlay-description"
+      >
+        Click below to sign up today!
+      </p>
+      <button
+        className="overlayBtn"
+        onClick={[Function]}
+      >
+        Sign Up
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`component rerenders when props change 3`] = `
+<div
+  className="overlay-container"
+>
+  <div
+    className="overlay"
+  >
+    <div
+      className="overlay-panel overlay-left"
+    >
+      <h1>
+        Have an Account?
+      </h1>
+      <p
+        className="overlay-description"
+      >
+        How about signing back in to your current?
+      </p>
+      <button
+        className="overlayBtn"
+        onClick={[Function]}
+      >
+        Sign In
+      </button>
+    </div>
+    <div
+      className="overlay-panel overlay-right"
+    >
+      <h1>
+        Need an Account?
+      </h1>
+      <p
+        className="overlay-description"
+      >
+        Click below to sign up today!
+      </p>
+      <button
+        className="overlayBtn"
+        onClick={[Function]}
+      >
+        Sign Up
+      </button>
+    </div>
+  </div>
+</div>
+`;

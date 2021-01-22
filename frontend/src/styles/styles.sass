@@ -1,0 +1,48 @@
+// Add a font later 
+@import _variables
+@import _global
+@import _landing
+@import _navbar
+
+*,
+*::before,
+*::after
+    list-style-type: none
+    
+.ant-layout-content
+    background-color: #fff
+    padding-top: 5em
+
+.blk
+    color: #333
+    
+.posty
+    padding: 5em 1.5em
+    max-width: 350px !important
+    width: 350px !important
+    background-image: linear-gradient(rgba(34,126,34,1) 2.9%, rgba(168,251,60,1) 90.3% )
+  
+
+.leftSide
+    background-image: linear-gradient(rgba(34,126,34,1) 2.9%, rgba(168,251,60,1) 90.3% )
+    padding-top: 5em
+    a
+        font-size: 1.25em !important
+        .spacer
+            padding-left: 1em
+            &:hover
+                color: #ccc
+
+.container
+    height: 100% !important
+
+.ant-card-meta-detail > div:not(:last-child)
+    margin-bottom: 0
+
+.imgHolder
+    width: 100%
+    height: 250px
+    img
+        height: 100%
+        width: 100%
+        object-fit: cover

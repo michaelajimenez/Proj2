@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Users</title>
+<link
+	href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+	rel="stylesheet"
+	integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+	crossorigin="anonymous">
+</head>
+<body>
+
+	<h1>Let's take a look at a User</h1>
+
+	<div id="user-info">
+		<img id="user-img" width="200" height="200" />
+		<p id="user-id">User ID:</p>
+		<p id="username">Username:</p>
+		<p id="password">Password:</p>
+		<p id="fullname">Full Name:</p>
+		<p id="email">Email:</p>
+		<p id="created">Time:</p>
+		<p id="user-likes">User's Likes:</p>
+		<h3>User's Posts</h3>
+		<p id="post-id">Post ID:</p>
+		<p id="title">Title:</p>
+		<p id="body">Body:</p>
+		<p id="link">YT Link:</p>
+		<p id="time">Time:</p>
+		<p id="post-likes">Post Likes:</p>
+		<p></p>
+	</div>
+
+	<form method="post" action="/ProjectTwo/earthlings/api/createUser"
+		name="myForm">
+		<label for="username">Username: </label> <input type="text"
+			name="username" id="f-username" /> <label for="password">Password:
+		</label> <input type="password" name="password" id="f-password" /> <label
+			for="fullName">Full Name:</label> <input type="text" name="fullName"
+			id="f-name" /> <label for="email">Email: </label> <input
+			type="email" name="email" id="f-email" /> <input type="submit"
+			onclick="submitform()" value="Submit">
+	</form>
+
+	<a th:href="@{/forgetPassword.html}" th:text="#{message.resetPassword}">reset</a>
+	<script
+		src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+		crossorigin="anonymous"></script>
+
+	<script type="text/javascript" src="/ProjectTwo/resources/helper.js"></script>
+</body>
+</html>
